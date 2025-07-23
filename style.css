@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+header img{
+    width:  100px;
+    height: 50px;
+}
+ header a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    font-weight: bold;
+}
+a:hover{
+    border-bottom: 2px solid white;
+}
+.byd_video{
+    justify-content: center;
+    display: flex;
+    width: 1500px;
+    height: 520px;
+}
+.byd{
+    background-image: url(https://www.byd.com/content/dam/byd-site/en/banner/banner-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+.byd p{
+    color: white;
+    font-size: x-large;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 10%;
+}
+.byd2{
+    background-image: url(https://www.byd.com/content/dam/byd-site/en/home/banner/bottom-bannerPC.jpg);
+    display: flex;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.byd3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: url(https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1000,w_500,f_auto,q_auto/7392370/541157_227636.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    padding-top: 60px;
+}
+.byd3 h1, .byd3 p{
+    color: white;
+}
+.byd_technology{
+    padding: 7%;
+    align-items: center;
+}
+.main_technology{
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+.main_technology .No2{
+    padding: 10px;
+    background-color: rgb(248, 253, 255);
+    display: flex;
+    color: black;
+    gap: 15px;
+    flex-direction: column;
+}
+.main_technology img{
+    width: 700px;
+}
+.byd4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: url(https://www.byd.com/content/dam/byd-site/en/about-byd/market-pc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    padding-top: 60px;
+}
+.byd4 h1, .byd4  p{
+    color: white;
+}
+.byd5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: url(https://www.techspot.com/images2/news/bigimage/2025/03/2025-03-18-image-30.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    padding-top: 60px;
+}
+.byd5 h1, .byd5 p{
+    color: white;
+}
+
+footer{
+    background-color:  rgb(37, 36, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+hr{
+    color: white;
+    background-color: white;
+    width:100%;
+}
+.line{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+footer div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer img{
+    width: 25px;
+    height: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer p{
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
