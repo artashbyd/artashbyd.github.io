@@ -41,11 +41,11 @@ a:hover{
     background-size: cover;
     height: 650px;
     display: flex;
+    font-size: x-large;
     justify-content: center;
 }
 .byd p{
     color: white;
-    font-size: x-large;
     flex-direction: row;
     text-align: center;
     margin-top: 10%;
@@ -87,8 +87,8 @@ a:hover{
     justify-content: center;
 }
 .main_technology .No2{
-    padding: 10px;
-    background-color: rgb(248, 253, 255);
+    padding: 5px;
+    background-color: rgb(235, 237, 238);
     display: flex;
     color: black;
     gap: 15px;
@@ -96,6 +96,42 @@ a:hover{
 }
 .main_technology img{
     width: 700px;
+}
+.midle_byd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZyxLIBkaMflp0lTn-keK_Wc4XAcsTkkq2w&s);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    padding-top: 60px;
+}
+.midle_byd h1{
+    color: white;
+    font-size: x-large;
+}
+.byd_car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: url(https://www.changecars.co.za/resources/ckuploads/nmXqvZ7URV28.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    padding-top: 60px;
+}
+.byd_car h1{
+    color: white;
+    font-size: x-large;
 }
 .byd4{
     display: flex;
@@ -138,6 +174,7 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 5%;
+    gap: 5%;
 }
 hr{
     color: white;
