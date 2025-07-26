@@ -1,0 +1,46 @@
+.border{
+    justify-content: center;
+    border: 2px solid rgb(208, 215, 222);
+    display: flex;
+    color: black;
+    justify-content: center;
+    margin-top: 5%;
+}
+.login{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    width: 180px;
+    background-color: white;
+}
+button{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100px;
+    font-size: large;
+    margin-top: 5px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(208, 215, 222);
+    background-image: url(https://cleantechnica.com/wp-content/uploads/2023/11/1-1-scaled-e1700530553443.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    height: 90vh;
+    padding-top: 60px;
+}
+body h1{
+    color: white;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
