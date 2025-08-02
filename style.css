@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 header{
     background-color: rgb(37, 36, 36);
@@ -16,6 +17,12 @@ header{
 header img{
     width:  100px;
     height: 50px;
+}
+.log_out{
+    border: 2px solid rgb(71, 67, 67);
+    background-color: rgb(44, 43, 43);
+    padding: 5px;
+    color: white;
 }
  header a{
     color: white;
@@ -78,7 +85,6 @@ a:hover{
 }
 .byd_technology{
     padding: 7%;
-    align-items: center;
 }
 .main_technology{
     border: 2px solid rgb(255, 255, 255);
@@ -86,13 +92,14 @@ a:hover{
     color: black;
     justify-content: center;
 }
-.main_technology .No2{
-    padding: 5px;
+.No2{
+    padding: 10px;
     background-color: rgb(235, 237, 238);
     display: flex;
-    color: black;
+    color: rgb(0, 0, 0);
     gap: 15px;
     flex-direction: column;
+    height: 395px;
 }
 .main_technology img{
     width: 700px;
@@ -102,7 +109,7 @@ a:hover{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZyxLIBkaMflp0lTn-keK_Wc4XAcsTkkq2w&s);
+    background-image: url(https://cdn.uc.assets.prezly.com/dbff098b-cc29-4929-b05b-180a89145820/-/crop/2857x1058/716,555/-/preview/e%20Platform%203%202);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,7 +136,7 @@ a:hover{
     height: 100vh;
     padding-top: 60px;
 }
-.byd_car h1{
+.byd_car h1, .byd_car{
     color: white;
     font-size: x-large;
 }
@@ -147,8 +154,9 @@ a:hover{
     height: 100vh;
     padding-top: 60px;
 }
-.byd4 h1, .byd4  p{
+.byd4 h1, .byd4 p {
     color: white;
+    font-size: x-large;
 }
 .byd5{
     display: flex;
@@ -207,3 +215,4 @@ footer p{
     color: white;
     margin-top: 10%;
 }
+
