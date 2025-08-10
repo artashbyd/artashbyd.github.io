@@ -35,6 +35,9 @@ header img{
 a:hover{
     border-bottom: 2px solid white;
 }
+.noa:hover{
+    border-bottom:none;
+}
 .byd_video{
     justify-content: center;
     display: flex;
@@ -215,4 +218,5 @@ footer p{
     color: white;
     margin-top: 10%;
 }
+
 
